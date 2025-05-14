@@ -64,77 +64,93 @@ content generation scenarios:
 
 ## Demonstration: A Case Study Topic
 ```
-Topic: “Remote Work Adoption in Tech Companies”
+## Topic: “Remote Work Adoption in Tech Companies”
+
 Each technique is tested with this topic for comparative output.
 
-1. Naive Prompt (Control Group)
+## 1. Naive Prompt (Control Group)
+
 Prompt: “Write a case study about remote work in a tech company.”
 
-Output Quality:
+## Output Quality:
+
 • Structure: ✖️ Weak
 • Coherence: ⚠️ Moderate
 • Insight: ⚠️ Generic
 
-2. Query Decomposition
+##2. Query Decomposition
+
 Prompt Sequence:
+
 Describe the company and its structure. Why was remote work adopted? What were the productivity outcomes? What lessons were learned post-implementation?
 
-Output Quality:
+## Output Quality:
+
 • Structure: ✅ Strong
 • Coherence: ✅ High
 • Insight: ✅ Deep
 
-3. Decision-Making Prompt
+## 3. Decision-Making Prompt
+
 Prompt:
+
 “If the company is a startup, describe how flexibility improved innovation. If it's an enterprise, focus on operational scalability during remote adoption.”
 
-Output Quality:
+## Output Quality:
+
 • Structure: ✅ Adaptive
 • Coherence: ✅ High
 • Insight: ✅ Tailored
-4. Semantic Filtering Prompt: “Write a case study about remote work in a tech company based only on 2020–2023 peer-reviewed studies and employee surveys.”
 
-Output Quality: • Structure: ✅ Scoped
+## 4. Semantic Filtering Prompt: “Write a case study about remote work in a tech company based only on 2020–2023 peer-reviewed studies and employee surveys.”
+
+## Output Quality:
+
+• Structure: ✅ Scoped
 • Coherence: ✅ Strong
 • Insight: ✅ Evidence-based
 
-5. Few-Shot Prompting
+## 5. Few-Shot Prompting
+
 Prompt:
+
 Example 1: A structured case study on hybrid work in finance. Example 2: A case study about agile teams in remote environments. Then: “Now write a case study on remote work in a tech company using the above format.”
 
-Output Quality:
+## Output Quality:
+
 • Structure: ✅ Consistent
 • Coherence: ✅ High
 • Insight: ⚠️ Moderate (depends on example quality)
 
-6. Role-Based Prompting
+## 6. Role-Based Prompting
+
 Prompt:
+
 “As an HR Director of a mid-size tech company, write a personal account of how remote work evolved in your team.”
 
-Output Quality:
+## Output Quality:
+
 • Structure: ✅ Narrative
 • Coherence: ✅ High
 • Insight: ✅ Authentic and practical
 
-Creative Content
+## Creative Content
+
 Example: Comic Book Scene
 
 Scenario: An AI learns human emotions.
-Prompt Type	Prompt	Output Insight
-Naive Prompt	“Write a comic scene about an AI understanding emotions.”	Fragmented dialogue, inconsistent pacing
-Structured Prompt	1. Introduce AI in lab. 2. Show emotional confusion. 3. Human helps.	Strong buildup, character arc, emotional depth
-Role-Based Prompt	“Narrate from AI’s internal monologue.”	Engaging tone, self-reflection, immersive story
-Few-Shot Prompt	Using sample comic scenes from “Big Hero 6” or “Wall-E”	Stylized tone, visual cues, thematic alignment
 
-# Comparison Table
+![image](https://github.com/user-attachments/assets/a3f5e67f-9dd7-4bed-9a4d-0b4751eae17c)
 
-Technique	Structure	Coherence	Depth	Best For
-Naive Prompt	✖️	⚠️	⚠️	Quick drafts, brainstorming
-Query Decomposition	✅	✅	✅	Research, reports, clarity
-Decision-Making	✅	✅	✅	Strategy-based storytelling
-Semantic Filtering	✅	✅	✅	Evidence-driven content
-Few-Shot Prompting	✅	✅	⚠️	Mimicking formats or styles
-Role-Based Prompting	✅	✅	✅	Narrative, persuasive writing
+
+## Comparison Table
+
+![image](https://github.com/user-attachments/assets/10de7f1e-08ac-450f-a6ff-6ed74fbbe3d8)
+
+## output:
+
+![image](https://github.com/user-attachments/assets/09f47b5c-19d0-4971-8fa7-dfdd04d2a215)
+
 ```
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.

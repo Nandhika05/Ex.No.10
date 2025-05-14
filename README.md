@@ -63,7 +63,7 @@ content generation scenarios:
 4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
 
 ## Demonstration: A Case Study Topic
-```
+
 ## Topic: “Remote Work Adoption in Tech Companies”
 
 Each technique is tested with this topic for comparative output.
@@ -75,7 +75,9 @@ Prompt: “Write a case study about remote work in a tech company.”
 ## Output Quality:
 
 • Structure: ✖️ Weak
+
 • Coherence: ⚠️ Moderate
+
 • Insight: ⚠️ Generic
 
 ##2. Query Decomposition
@@ -87,7 +89,9 @@ Describe the company and its structure. Why was remote work adopted? What were t
 ## Output Quality:
 
 • Structure: ✅ Strong
+
 • Coherence: ✅ High
+
 • Insight: ✅ Deep
 
 ## 3. Decision-Making Prompt
@@ -99,7 +103,9 @@ Prompt:
 ## Output Quality:
 
 • Structure: ✅ Adaptive
+
 • Coherence: ✅ High
+
 • Insight: ✅ Tailored
 
 ## 4. Semantic Filtering Prompt: “Write a case study about remote work in a tech company based only on 2020–2023 peer-reviewed studies and employee surveys.”
@@ -107,7 +113,9 @@ Prompt:
 ## Output Quality:
 
 • Structure: ✅ Scoped
+
 • Coherence: ✅ Strong
+
 • Insight: ✅ Evidence-based
 
 ## 5. Few-Shot Prompting
@@ -119,7 +127,9 @@ Example 1: A structured case study on hybrid work in finance. Example 2: A case 
 ## Output Quality:
 
 • Structure: ✅ Consistent
+
 • Coherence: ✅ High
+
 • Insight: ⚠️ Moderate (depends on example quality)
 
 ## 6. Role-Based Prompting
@@ -131,7 +141,9 @@ Prompt:
 ## Output Quality:
 
 • Structure: ✅ Narrative
+
 • Coherence: ✅ High
+
 • Insight: ✅ Authentic and practical
 
 ## Creative Content
@@ -151,6 +163,6 @@ Scenario: An AI learns human emotions.
 
 ![image](https://github.com/user-attachments/assets/09f47b5c-19d0-4971-8fa7-dfdd04d2a215)
 
-```
+
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.

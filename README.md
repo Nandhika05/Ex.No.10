@@ -63,6 +63,7 @@ content generation scenarios:
 4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
 
 ## Demonstration: A Case Study Topic
+```
 Topic: “Remote Work Adoption in Tech Companies”
 Each technique is tested with this topic for comparative output.
 
@@ -134,6 +135,6 @@ Decision-Making	✅	✅	✅	Strategy-based storytelling
 Semantic Filtering	✅	✅	✅	Evidence-driven content
 Few-Shot Prompting	✅	✅	⚠️	Mimicking formats or styles
 Role-Based Prompting	✅	✅	✅	Narrative, persuasive writing
-
+```
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
